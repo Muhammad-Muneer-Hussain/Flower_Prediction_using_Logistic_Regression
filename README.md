@@ -51,7 +51,11 @@ The dataset used in this project is the famous Iris dataset.
 6. Make predictions  
 
 ---
+## 📊 Example
+Input: [5.1, 3.5, 1.4, 0.2]
+Output: Setos
 
+---
 ## ▶️ How to Run
 
 Clone the repository:
@@ -59,8 +63,4 @@ Clone the repository:
 ```bash
 git clone https://github.com/Muhammad-Muneer-Hussain/Flower_Prediction_using_Logistic_Regression.git
 
----
-
-## 📊 Example
-Input: [5.1, 3.5, 1.4, 0.2]
-Output: Setosa
+a
