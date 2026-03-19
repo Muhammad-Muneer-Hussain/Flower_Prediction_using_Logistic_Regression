@@ -1,112 +1,60 @@
-🌸 Flower Prediction using Logistic Regression
+# 🌸 Flower Prediction using Logistic Regression
 
-This project uses the famous Iris dataset to build a machine learning model that predicts the species of a flower based on its features using Logistic Regression.
+This project uses the Iris dataset to build a machine learning model that predicts the species of a flower using Logistic Regression.
 
-📌 Project Overview
+---
 
-The goal of this project is to classify iris flowers into one of the following categories:
+## 📌 Project Overview
 
-Setosa
+The goal of this project is to classify iris flowers into three categories:
 
-Versicolor
+- Setosa  
+- Versicolor  
+- Virginica  
 
-Virginica
+The prediction is based on the following features:
 
-The model is trained using features like:
+- Sepal Length  
+- Sepal Width  
+- Petal Length  
+- Petal Width  
 
-Sepal Length
+---
 
-Sepal Width
+## ⚙️ Technologies Used
 
-Petal Length
+- Python  
+- NumPy  
+- Pandas  
+- Matplotlib / Seaborn  
+- Scikit-learn  
 
-Petal Width
+---
 
-⚙️ Technologies Used
+## 📂 Dataset
 
-Python 🐍
+The dataset used in this project is the famous Iris dataset.
 
-NumPy
+- Total Samples: 150  
+- Features: 4  
+- Classes: 3  
 
-Pandas
+---
 
-Matplotlib / Seaborn (for visualization)
+## 🚀 How It Works
 
-Scikit-learn
+1. Load the dataset  
+2. Preprocess the data  
+3. Split into training and testing sets  
+4. Train the Logistic Regression model  
+5. Evaluate the model  
+6. Make predictions  
 
-📂 Dataset
+---
 
-This project uses the Iris dataset, which is a well-known dataset in machine learning.
-
-It contains:
-
-150 samples
-
-3 classes of flowers
-
-4 input features
-
-🚀 How It Works
-
-Load the dataset
-
-Perform data preprocessing
-
-Split data into training and testing sets
-
-Train the Logistic Regression model
-
-Evaluate the model performance
-
-Make predictions
-
-📊 Model Performance
-
-The model is evaluated using:
-
-Accuracy score
-
-Confusion matrix (optional)
-
-▶️ How to Run
+## ▶️ How to Run
 
 Clone the repository:
 
-git clone https://github.com/your-username/Flower_Prediction_using_Logistic_Regression.git
-
-Navigate to the project folder:
-
-cd Flower_Prediction_using_Logistic_Regression
-
-Install dependencies:
-
-pip install -r requirements.txt
-
-Run the script:
-
-python main.py
-📸 Output
-
-The model predicts the flower species based on input features.
-
-Example:
-
-Input: [5.1, 3.5, 1.4, 0.2]
-Output: Setosa
-💡 Future Improvements
-
-Add a web interface (Flask / Streamlit)
-
-Hyperparameter tuning
-
-Try other algorithms (SVM, Decision Tree, etc.)
-
-Deploy the model
-
-🤝 Contributing
-
-Feel free to fork this repository and contribute to improve the project.
-
-📜 License
-
-This project is open-source and available under the MIT License.
+```bash
+git clone https://github.com/Muhammad-Muneer-Hussain/Flower_Prediction_using_Logistic_Regression.git
