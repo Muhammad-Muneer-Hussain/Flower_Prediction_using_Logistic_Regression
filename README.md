@@ -52,8 +52,8 @@ The dataset used in this project is the famous Iris dataset.
 
 ---
 ## 📊 Example
-Input: [5.1, 3.5, 1.4, 0.2]
-Output: Setos
+- Input: [5.1, 3.5, 1.4, 0.2]
+- Output: Setos
 
 ---
 ## ▶️ How to Run
